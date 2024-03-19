@@ -1,14 +1,16 @@
-```
+
 Backlink Checker
 -----------------
 USAGE:
 # Example for local excel file
+```
 from backlink_checker import Website
 web = Website(domain_name="example.com")
 web.read_excel_links(excel_path="example.xlsx", column_name="Links")
 backlinks = web.start()
-
+```
 # Example for google sheets (https://developers.google.com/sheets/api/quickstart/python)
+```
 from backlink_checker import Website
 web = Website(domain_name="example.com")
 web.read_google_sheets_links(
@@ -17,7 +19,8 @@ web.read_google_sheets_links(
     row_range="Sheet1!A2:A"
 )
 backlinks = web.start()
-
+```
+```
 # Acess backlinks details
 for b in backlinks:
     print(b.target_link)
@@ -27,4 +30,6 @@ for b in backlinks:
 ```
 
 # Install using pypi:
-## pip install backlink-checker
+```
+# pip install backlink-checker
+```
