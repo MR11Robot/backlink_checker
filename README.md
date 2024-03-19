@@ -25,3 +25,6 @@ for b in backlinks:
     print(b.keywords")
     print(b.link_rel")
 ```
+
+# Install using pypi:
+# pip install backlink-checker
