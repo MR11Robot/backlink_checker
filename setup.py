@@ -11,7 +11,7 @@ classifiers = [
 
 setup(
   name='backlink_checker',
-  version='0.0.5',
+  version='0.0.6',
   description='backlink checker',
   long_description=open('README.md').read(),
   long_description_content_type='text/markdown',
