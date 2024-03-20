@@ -14,6 +14,7 @@ setup(
   version='0.0.3',
   description='backlink checker',
   long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read() + '\n\n' + open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.txt')).read(),
+  long_description_content_type='text/markdown',
   url='',  
   author='mr11robot',
   author_email='taha.youssef.fares@gmail.com',
