@@ -1,3 +1,12 @@
+Backlink Checker
+-----------------
+USAGE:
+# Example for local excel file
+```
+from backlink_checker import Website
+web = Website(domain_name="example.com")
+web.read_excel_links(excel_path="example.xlsx", column_name="Links")
+backlinks = web.start()
 ```
 # Example for google sheets (https://developers.google.com/sheets/api/quickstart/python)
 ```
