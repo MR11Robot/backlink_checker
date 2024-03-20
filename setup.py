@@ -1,5 +1,6 @@
+import os
 from setuptools import setup, find_packages
- 
+
 classifiers = [
   'Development Status :: 5 - Production/Stable',
   'Intended Audience :: Education',
@@ -7,12 +8,12 @@ classifiers = [
   'License :: OSI Approved :: MIT License',
   'Programming Language :: Python :: 3'
 ]
- 
+
 setup(
   name='backlink_checker',
-  version='0.0.1',
+  version='0.0.2',
   description='backlink checker',
-  long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read() + '\n\n' + open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.txt')).read(),
   url='',  
   author='mr11robot',
   author_email='taha.youssef.fares@gmail.com',
