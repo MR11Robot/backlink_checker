@@ -1,5 +1,5 @@
 CHANGELOG.txt
-LICENSE.txt
+LICENSE
 MANIFEST.in
 README.md
 setup.py

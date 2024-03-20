@@ -13,7 +13,7 @@ Classifier: Operating System :: Microsoft :: Windows :: Windows 10
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Description-Content-Type: text/markdown
-License-File: LICENSE.txt
+License-File: LICENSE
 Requires-Dist: openpyxl
 Requires-Dist: pandas
 Requires-Dist: beautifulsoup4
@@ -46,9 +46,9 @@ backlinks = web.start()
 # Acess backlinks details
 for b in backlinks:
     print(b.target_link)
-    print(b.backlink")
-    print(b.keywords")
-    print(b.link_rel")
+    print(b.backlink)
+    print(b.keywords)
+    print(b.link_rel)
 ```
 
 # Install using pypi:
