@@ -22,5 +22,5 @@ setup(
   classifiers=classifiers,
   keywords='backlinks', 
   packages=find_packages(),
-  install_requires=['openpyxl','pandas','beautifulsoup4','requests','google-oauth2-tool','google-api-python-client'] 
+  install_requires=['openpyxl','pandas','beautifulsoup4','requests','google-oauth2-tool','google-api-python-client'], 
 )
