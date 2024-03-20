@@ -13,7 +13,7 @@ setup(
   name='backlink_checker',
   version='0.0.3',
   description='backlink checker',
-  long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read() + '\n\n' + open(os.path.join(os.path.dirname(__file__), 'CHANGELOG.txt')).read(),
+  long_description=open('README.md').read(),
   long_description_content_type='text/markdown',
   url='',  
   author='mr11robot',
